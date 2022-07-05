@@ -1,11 +1,14 @@
 *{
     margin: 0;
+    font-family: 'Oswald', sans-serif;
     
 }
 .banner{
     background-image: url(https://images.pexels.com/photos/6471946/pexels-photo-6471946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: 1600px 800px;
     background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken,luminosity;
     width: 1400px;
     height: 500px;
     opacity:0.9;
@@ -18,10 +21,10 @@
     color: white;
     font-size: 60px;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    
 }
 .banner p{
-    color: rgb(36, 20, 20);
+    color: rgb(196, 188, 188);
     font-size: 30px;
     text-align: center;
     
@@ -36,32 +39,65 @@
     
    
 }
-.donation{
+#donate-section{
+    align-content: center;
+}
+.headings {
+    text-align: center;
     margin-top: 100px;
-    text-align: center;
-    padding: 50px;
-    align-items: center;
+    
 }
-.donation h1{
+.headings h1 {
     font-size: 60px;
-    font-family: 'Oswald', sans-serif;
+    
 }
-.donation p{
-    font-size: 30px;
-}
-.amount{
+.amount {
+    margin-top: 40px;
     display: flex;
-    text-align: center;
-    margin-top: 50px;
+    font-size: 30px;
+    padding: 20px;
+    justify-content: center;
     
     
 }
 .amount h2{
-    padding: 10px;
+    padding: 25px;
 }
 #standard{
     border: 2px tomato solid;
 }
-input{
-    border-bottom: 2px black solid;
+.input{
+    margin-top: 30px;
+   text-align: center;
+  
+}
+.btn{
+    text-align: center;
+    margin-top: 30px;
+}
+#plan-section{
+   
+}
+.plan-heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.plan-heading h1{
+    font-size: 60px;
+}
+.plan-item{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.item-1{
+    padding:10px;
+   
+    
+    
+}
+.plan-item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
