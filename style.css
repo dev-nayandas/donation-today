@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    
+}
+.banner{
+    background-image: url(https://images.pexels.com/photos/6471946/pexels-photo-6471946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 500px;
+    opacity:0.9;
+    text-align: center;
+}
+.banner div{
+    margin-top: 100px;
+}
+.banner h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.banner p{
+    color: rgb(36, 20, 20);
+    font-size: 30px;
+    text-align: center;
+    
+}
+#donate-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+   
+}
+.donation{
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+.donation h1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+.donation p{
+    font-size: 30px;
+}
+.amount{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.amount h2{
+    padding: 10px;
+}
+#standard{
+    border: 2px tomato solid;
+}
+input{
+    border-bottom: 2px black solid;
+}
